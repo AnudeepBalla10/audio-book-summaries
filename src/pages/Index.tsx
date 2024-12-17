@@ -49,16 +49,16 @@ const Index = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
+    <div className="min-h-screen bg-gradient-to-br from-[#8B5CF6] via-[#D946EF] to-[#0EA5E9]/30">
       <div className="container mx-auto px-4 py-12">
         <div className="mb-12 space-y-6 text-center">
-          <h1 className="animate-fade-in text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
+          <h1 className="animate-fade-in text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
             Audio Book{" "}
-            <span className="bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#FEC6A1] to-[#FFDEE2] bg-clip-text text-transparent">
               Summaries
             </span>
           </h1>
-          <p className="animate-fade-in mx-auto max-w-2xl text-lg text-muted-foreground">
+          <p className="animate-fade-in mx-auto max-w-2xl text-lg text-[#E5DEFF]">
             Listen to key insights from the world's best books, carefully curated and summarized for your growth
           </p>
           <div className="animate-fade-in mx-auto max-w-md">
@@ -66,7 +66,7 @@ const Index = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {filteredBooks.map((book, index) => (
             <div
               key={book.id}
@@ -79,7 +79,7 @@ const Index = () => {
         </div>
 
         {filteredBooks.length === 0 && (
-          <div className="animate-fade-in mt-12 text-center text-muted-foreground">
+          <div className="animate-fade-in mt-12 text-center text-white">
             No books found matching your search.
           </div>
         )}
