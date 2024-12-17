@@ -21,7 +21,22 @@ const mockBooks: Book[] = [
       },
     ],
   },
-  // Add more mock books here
+  {
+    id: "2",
+    title: "The Monk Who Sold His Ferrari",
+    author: "Robin Sharma",
+    coverImage: "/books/The Monk Who Sold His Ferrari/cover.jpg",
+    description: "A spiritual journey of self-discovery and transformation.",
+    duration: "2h 45m",
+    chapters: [
+      {
+        id: "1",
+        title: "Chapter 1",
+        duration: "12:30",
+        audioUrl: "/books/The Monk Who Sold His Ferrari/chapters/Chapter1.mp3",
+      },
+    ],
+  },
 ];
 
 const Index = () => {
