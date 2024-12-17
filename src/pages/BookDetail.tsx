@@ -11,7 +11,7 @@ const mockBook: Book = {
   id: "1",
   title: "The Psychology of Money",
   author: "Morgan Housel",
-  coverImage: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+  coverImage: "/books/The Psychology of Money/cover.jpg",
   description: "Timeless lessons on wealth, greed, and happiness.",
   duration: "3h 15m",
   chapters: [
@@ -19,7 +19,7 @@ const mockBook: Book = {
       id: "1",
       title: "Chapter 1: The Greatest Show On Earth",
       duration: "15:30",
-      audioUrl: "/audio/chapter1.mp3",
+      audioUrl: "/books/The Psychology of Money/chapters/chapter1.mp3",
     },
   ],
 };
