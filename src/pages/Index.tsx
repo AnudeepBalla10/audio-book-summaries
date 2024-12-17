@@ -27,12 +27,12 @@ const mockBooks: Book[] = [
     author: "Robin Sharma",
     coverImage: "/books/The Monk Who Sold His Ferrari/cover.jpg",
     description: "A spiritual journey of self-discovery and transformation.",
-    duration: "2h 45m",
+    duration: "3:39",
     chapters: [
       {
         id: "1",
         title: "Chapter 1",
-        duration: "12:30",
+        duration: "3:39",
         audioUrl: "/books/The Monk Who Sold His Ferrari/chapters/Chapter1.mp3",
       },
     ],
